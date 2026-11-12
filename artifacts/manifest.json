@@ -1,0 +1,16 @@
+{
+  "name": "apex-ple-harness",
+  "version": "1.0.0",
+  "protocol": 1,
+  "description": "Apex-PLE constraint-gated 5-phase agent harness. No model weights or large artifacts are shipped; all artifacts are generated at run time inside the task container.",
+  "artifacts": [],
+  "total_bytes": 0,
+  "phases": [
+    "recon_mcp_discovery",
+    "feasibility_first_synthesis_g1",
+    "interior_point_optimization",
+    "deterministic_deliverable_audit",
+    "rubric_aligned_final_message"
+  ],
+  "runtime_checkpoint_dir": "/tmp/.apex_ple_checkpoint"
+}
